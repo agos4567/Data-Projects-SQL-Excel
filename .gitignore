@@ -1,0 +1,7 @@
+# Archivos de sistema y configuración
+.dbeaver/
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
