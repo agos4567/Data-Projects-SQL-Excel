@@ -28,9 +28,9 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 * **Concepto:** `STDDEV` para medir cuánto se alejan las ventas del promedio y cálculo manual del CV para determinar la volatilidad porcentual.
 * **Aprendizaje:** El análisis determinó si las ventas son constantes o presentan mucha volatilidad a lo largo del año.
 
-![Captura de Resultados](Images/estabilidad.png)
+![Captura de Resultados](Images/estabilidad.PNG)
 
-![Captura de Resultados](Images/resultado_estabilidad.png)
+![Captura de Resultados](Images/resultado_estabilidad.PNG)
 
 
 
@@ -40,6 +40,6 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 * **Tarea:** Identificación de Outliers mediante el método del Rango Intercuartílico (IQR).
 * **Aprendizaje:** Separamos las semanas de ventas "normales" de aquellas que representan fenómenos extraordinarios para el negocio.
 
-![Captura de Resultados](Images/outliers.png)
+![Captura de Resultados](Images/outliers.PNG)
 
-![Captura de Resultados](Images/outliers_resultado.png)
+![Captura de Resultados](Images/outliers_resultado.PNG)
