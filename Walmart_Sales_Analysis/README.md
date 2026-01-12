@@ -19,4 +19,4 @@ Este anÃ¡lisis busca identificar patrones de ventas en Walmart para entender quÃ
 
 ![Captura de Resultados](Images/resultado_tendencia.png)
 
-![Captura de Resultados](Images/query_tendencia.png)
+![Captura de Resultados](Images/query_tendencia.PNG)
