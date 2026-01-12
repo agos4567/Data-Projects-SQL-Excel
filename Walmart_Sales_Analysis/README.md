@@ -17,6 +17,6 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 * **Tarea:** Calcular el promedio y la mediana de las ventas semanales.
 * **Concepto:** Se utilizó `AVG` y `PERCENTILE_CONT(0.5)` para hallar la mediana y entender el valor central real, mitigando el efecto de valores atípicos.
 
-![Captura de Resultados](images/resultado_tendencia.png)
+![Captura de Resultados](Images/resultado_tendencia.png)
 
-![Captura de Resultados](images/query_tendencia.png)
+![Captura de Resultados](Images/query_tendencia.png)
