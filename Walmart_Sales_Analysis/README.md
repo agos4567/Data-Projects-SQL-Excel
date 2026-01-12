@@ -10,3 +10,13 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 * **Dataset:** [Walmart Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/mikhail1681/walmart-sales)
 * **Herramientas:** SQL (PostgreSQL), CTEs, Window Functions.
 * **Enfoque:** Análisis descriptivo de tendencia central, dispersión y posición.
+
+## 🛠️ 2.0 Etapas del Análisis
+
+### 2.1 Tendencia Central (El Corazón de los Datos)
+* **Tarea:** Calcular el promedio y la mediana de las ventas semanales.
+* **Concepto:** Se utilizó `AVG` y `PERCENTILE_CONT(0.5)` para hallar la mediana y entender el valor central real, mitigando el efecto de valores atípicos.
+
+![Captura de Resultados](images/resultado_tendencia.png)
+
+![Captura de Resultados](images/query_tendencia.png)
