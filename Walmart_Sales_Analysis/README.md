@@ -15,6 +15,11 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 
 
 
+
+
+
+
+
 ## 🛠️ 2.0 Etapas del Análisis
 
 ### 2.1 Tendencia Central (El Corazón de los Datos)
@@ -47,6 +52,9 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 
 
 
+
+
+
 ### 2.3 Análisis de Valores Atípicos (Outliers)
 * **Tarea:** Identificación de Outliers mediante el método del Rango Intercuartílico (IQR).
 * **Aprendizaje:** Separamos las semanas de ventas "normales" de aquellas que representan fenómenos extraordinarios para el negocio.Muestro los 10 outliers más extremos (mayores ventas).
@@ -54,7 +62,12 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 
 ![Captura de Resultados](Images/outliers.PNG)
 
-![Captura de Resultados](Images/resultado_outlier.PNG)
+![Captura de Resultados](Images/resultado_outliers.PNG)
+
+
+
+
+
 
 
 
@@ -76,6 +89,11 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 
 
 
+
+
+
+
+
 ### 2.5 Desempeño por Categoría (Tienda) vs Promedio
 * **Tarea:** CComparar las ventas semanales de cada tienda contra el desempeño promedio de su categoría.
 * **Concepto:** Uso de Tablas Temporales (`WITH`) e `INNER JOIN` para organizar el flujo de datos.
@@ -83,3 +101,6 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 ![Captura de Resultados](Images/desempeño_categoria.PNG)
 
 ![Captura de Resultados](Images/resultado_desempeño_categoria.PNG)
+
+
+
