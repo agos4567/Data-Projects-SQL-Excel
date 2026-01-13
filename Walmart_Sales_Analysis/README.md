@@ -11,6 +11,10 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 * **Herramientas:** SQL (PostgreSQL), CTEs, Window Functions.
 * **Enfoque:** Análisis descriptivo de tendencia central, dispersión y posición.
 
+
+
+
+
 ## 🛠️ 2.0 Etapas del Análisis
 
 ### 2.1 Tendencia Central (El Corazón de los Datos)
@@ -21,6 +25,10 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 
 
 ![Captura de Resultados](Images/resultado_tendencia.png)
+
+
+
+
 
 
 ### 2.2 Dispersión y Variabilidad (¿Qué tan estables somos?)
@@ -36,10 +44,42 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 
 
 
+
+
+
 ### 2.3 Análisis de Valores Atípicos (Outliers)
 * **Tarea:** Identificación de Outliers mediante el método del Rango Intercuartílico (IQR).
-* **Aprendizaje:** Separamos las semanas de ventas "normales" de aquellas que representan fenómenos extraordinarios para el negocio.
+* **Aprendizaje:** Separamos las semanas de ventas "normales" de aquellas que representan fenómenos extraordinarios para el negocio.Muestro los 10 outliers más extremos (mayores ventas).
+
 
 ![Captura de Resultados](Images/outliers.PNG)
 
-![Captura de Resultados](Images/outliers_resultado.PNG)
+![Captura de Resultados](Images/resultado_outlier.PNG)
+
+
+
+
+
+
+
+
+### 2.4 Análisis de Posición (Segmentación de Rendimiento)
+* **Tarea:** Identificar el umbral de ventas del 10% superior (Percentil 90).
+* **Concepto:** `PERCENTILE_CONT(0.9)` dentro de `WITHIN GROUP (ORDER BY...)`.
+* **Aprendizaje:** Definimos qué constituye una "semana de ventas excepcional" y comparamos su frecuencia en días festivos vs. normales.
+
+
+![Captura de Resultados](Images/segmentacion.PNG)
+
+![Captura de Resultados](Images/resultado_segmentacion.PNG)
+
+
+
+
+### 2.5 Desempeño por Categoría (Tienda) vs Promedio
+* **Tarea:** CComparar las ventas semanales de cada tienda contra el desempeño promedio de su categoría.
+* **Concepto:** Uso de Tablas Temporales (`WITH`) e `INNER JOIN` para organizar el flujo de datos.
+
+![Captura de Resultados](Images/desempeño_categoria.PNG)
+
+![Captura de Resultados](Images/resultado_desempeño_categoria.PNG)
