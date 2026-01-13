@@ -95,7 +95,7 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 
 
 ### 2.5 Desempeño por Categoría (Tienda) vs Promedio
-* **Tarea:** CComparar las ventas semanales de cada tienda contra el desempeño promedio de su categoría.
+* **Tarea:** Comparar las ventas semanales de cada tienda contra el desempeño promedio de su categoría.
 * **Concepto:** Uso de Tablas Temporales (`WITH`) e `INNER JOIN` para organizar el flujo de datos.
 
 ![Captura de Resultados](Images/desempeño_categoria.PNG)
@@ -104,3 +104,6 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 
 
 
+## 📊 3.0 Hallazgos Clave (Insights)
+
+> * 📕 [Ver Reporte Final (PDF)](reporte_walmart.pdf)
