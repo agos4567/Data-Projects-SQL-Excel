@@ -22,7 +22,7 @@ Este análisis busca identificar patrones de ventas en Walmart para entender qu�
 
 ## 🛠️ 2.0 Etapas del Análisis
 
-### 2.1 Tendencia Central (El Corazón de los Datos)
+### 2.1 Tendencia Central 
 * **Tarea:** Calcular el promedio y la mediana de las ventas semanales.
 * **Concepto:** Se utilizó `AVG` y `PERCENTILE_CONT(0.5)` para hallar la mediana y entender el valor central real, mitigando el efecto de valores atípicos.
 
